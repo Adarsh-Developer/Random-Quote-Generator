@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+}
+
+.main__container {
+  width: 100vw;
+  height: 100vh;
+  background: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  padding: 20px 15px;
+  background: #ffffff;
+  border-radius: 4px;
+  max-width: 450px;
+  margin: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.wrapper p{
+  text-align: center;
+  font-weight: 800;
+  font-size: 25px;
+  color: #222;
+  background: url('https://imgs.search.brave.com/AjcxlQybSetJlNKk3fuAns82MKRhWEgWuqdDA_pTVYg/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAxLzQ0LzkzLzk2/LzM2MF9GXzE0NDkz/OTYyM191Z21WQk9D/bk9PTDkxZVE4MmFm/VUdlOXNZem9FNnlh/ci5qcGc');
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.wrapper button {
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  background: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  transition: all 0.3s ease;
+}
+.wrapper button:hover {
+  background: #222;
+  color: #fff;
+}
+.wrapper button:active {
+  transform: scale(0.95);
+}
+
+h4, span {
+  font-size: 20px;
+  color: #68d4ff;
+  font-weight: 800;
+}
+span {
+  text-transform: uppercase;
+}
